@@ -1,0 +1,9 @@
+Model,Accuracy,Precision,Recall,F1-Score
+Logistic Regression,0.87,0.67,0.15,0.24
+Random Forest,0.87,0.75,0.15,0.24
+KNN,0.87,0.75,0.15,0.24
+Log Reg (Balanced),0.74,0.32,0.73,0.44
+RF (Balanced),0.87,0.75,0.15,0.24
+Log Reg (SMOTE),0.73,0.31,0.71,0.43
+RF (SMOTE),0.88,0.65,0.27,0.38
+KNN (SMOTE),0.69,0.26,0.63,0.37
