@@ -92,4 +92,4 @@ final_dataset = X_final.copy()
 final_dataset['Attrition'] = y
 
 # Save as single CSV file 
-final_dataset.to_csv(r'C:\Users\USER\My notebook\DataSciencePro\employee-attrition-prediction\data\processed\processed_attrition_data.csv', index=False)
+final_dataset.to_csv(r'deployment\employee-attrition-prediction\data\processed\processed_attrition_data.csv', index=False)
