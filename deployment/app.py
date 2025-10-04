@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
 import pandas as pd
+import os
 
 # Page configuration
 st.set_page_config(page_title="Employee Attrition Predictor", page_icon="👔", layout="wide")
@@ -8,7 +9,8 @@ st.set_page_config(page_title="Employee Attrition Predictor", page_icon="👔", 
 # Load model
 @st.cache_resource
 def load_model():
-    with open('model.pkl', 'rb') as f:
+    model_path = os.path.join(os.path.dirname(__file__), 'model.pkl')
+    with open(model_path, 'rb') as f:
         return pickle.load(f)
 
 model = load_model()
