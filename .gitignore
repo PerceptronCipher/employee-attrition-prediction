@@ -23,7 +23,7 @@ wheels/
 .installed.cfg
 *.egg
 *.json
-*.devcontainer
+*.devcontainer/
 
 # Jupyter Notebook
 .ipynb_checkpoints
