@@ -103,6 +103,16 @@ Built a Streamlit web app allowing HR teams to input employee data and receive i
 4. Monthly Income (compensation is critical)
 5. Overtime (work-life balance impacts retention)
 
+## Dashboard Preview
+
+
+<p align="center">
+  <img src="dashboard/HR_Dashboard.png" alt="HR Dashboard Preview" width="850"/>
+</p>
+
+
+
+
 **Surprising Non-Predictors:**
 Gender, education field, and marital status showed minimal predictive power, suggesting attrition is driven more by job experience and satisfaction than demographics.
 
